@@ -34,3 +34,23 @@ Classification Report:
 Due to time constraint it was opted to not elaborate much further on possible context actions.
 
 The basic implementation of a gaze sending coroutine, a model serving python server and a UI element displaying the classification result is provided.
+
+Requirements:
+
+Python Server:
+
+- Flask
+- LightGBM
+- Pickle
+- All Gaze transformation requirements
+
+Unity App:
+
+- Newtonsoft Json
+- MRTK3
+
+General:
+
+- [ngrok](https://ngrok.com/)
+
+**This application was tunnel over ngrok. It is required to put the correct URI in the GazeDataFromHL2Example.cs script**
