@@ -1,0 +1,540 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.10f1 (ff3792e53c62) revision 16725906'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Core' Language: 'en' Physical Memory: 14198 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.10f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+C:/Users/Lukas Volk/Documents/Playground/UbiComp
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+58690
+Successfully changed project path to: C:/Users/Lukas Volk/Documents/Playground/UbiComp
+C:/Users/Lukas Volk/Documents/Playground/UbiComp
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [24516] Host "[IP] 169.254.200.62 [Port] 0 [Flags] 2 [Guid] 195671471 [EditorId] 195671471 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-2SR5CQ2) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [24516] Host "[IP] 169.254.200.62 [Port] 0 [Flags] 2 [Guid] 195671471 [EditorId] 195671471 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-2SR5CQ2) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 11 workers.
+Refreshing native plugins compatible for Editor in 32.67 ms, found 16 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.10f1 (ff3792e53c62)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Lukas Volk/Documents/Playground/UbiComp/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: AMD Radeon(TM) Graphics (ID=0x1638)
+    Vendor:   ATI
+    VRAM:     7099 MB
+    Driver:   31.0.12044.47003
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56756
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
+Registered in 0.008674 seconds.
+- Loaded All Assemblies, in  0.357 seconds
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.236 seconds
+Domain Reload Profiling: 592ms
+	BeginReloadAssembly (149ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (32ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (51ms)
+	LoadAllAssembliesAndSetupDomain (115ms)
+		LoadAssemblies (147ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (113ms)
+			TypeCache.Refresh (112ms)
+				TypeCache.ScanAssembly (102ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (236ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (186ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (11ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (125ms)
+			ProcessInitializeOnLoadMethodAttributes (41ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.645 seconds
+Refreshing native plugins compatible for Editor in 14.12 ms, found 16 plugins.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[XR] Error loading subsystem: Display (1) (header mismatch?)
+[XR] [MROpenXR][Info   ][18:12:48.143521][tid:5fc4] OnPluginStarted UnityVersion=2022.3.10f1 OpenXRPluginVersion=1.8.2 MROpenXRPluginVersion=1.9.0.0 PartA_PrivTags=33554432
+[XR] [MROpenXR][Info   ][18:12:48.143521][tid:5fc4] OnPluginStarted UnityVersion=2022.3.10f1 OpenXRPluginVersion=1.8.2 MROpenXRPluginVersion=1.9.0.0 PartA_PrivTags=33554432
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  0.728 seconds
+Domain Reload Profiling: 1370ms
+	BeginReloadAssembly (131ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (20ms)
+	RebuildCommonClasses (27ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (35ms)
+	LoadAllAssembliesAndSetupDomain (440ms)
+		LoadAssemblies (298ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (218ms)
+			TypeCache.Refresh (168ms)
+				TypeCache.ScanAssembly (150ms)
+			ScanForSourceGeneratedMonoScriptInfo (34ms)
+			ResolveRequiredComponents (14ms)
+	FinalizeReload (728ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (543ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (9ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (109ms)
+			ProcessInitializeOnLoadAttributes (335ms)
+			ProcessInitializeOnLoadMethodAttributes (78ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 12.22 ms, found 16 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5464 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 96 unused Assets / (1.3 MB). Loaded Objects now: 5954.
+Memory consumption went from 198.4 MB to 197.1 MB.
+Total: 5.013900 ms (FindLiveObjects: 0.381300 ms CreateObjectMapping: 0.320600 ms MarkObjects: 3.680300 ms  DeleteObjects: 0.630800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 166368.906771 seconds.
+  path: Packages/org.mixedrealitytoolkit.uxcomponents.noncanvas/Dialog/Dialog_168x88mm.prefab
+  artifactKey: Guid(175cf7e8b8559f342806a0f7d7f3082a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/org.mixedrealitytoolkit.uxcomponents.noncanvas/Dialog/Dialog_168x88mm.prefab using Guid(175cf7e8b8559f342806a0f7d7f3082a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f66cea040ea887af8d35279895d2fb6') in 0.410094 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 885
+========================================================================
+Received Import Request.
+  Time since last request: 129.117214 seconds.
+  path: Assets/MRTK.Generated/MRTKSettings.asset
+  artifactKey: Guid(0d27b3e61aa909040abb105f67f15e8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MRTK.Generated/MRTKSettings.asset using Guid(0d27b3e61aa909040abb105f67f15e8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0aed270751c4b817344dbbd260c872e4') in 0.014175 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 45.923443 seconds.
+  path: Packages/com.microsoft.mrtk.graphicstools.unity/Runtime/Materials/CanvasBackplate.mat
+  artifactKey: Guid(a522d7149601c2642b1b5daf4fd94c40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.microsoft.mrtk.graphicstools.unity/Runtime/Materials/CanvasBackplate.mat using Guid(a522d7149601c2642b1b5daf4fd94c40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '097b44821a57d1a072f975957c6feb6e') in 0.184751 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Packages/org.mixedrealitytoolkit.standardassets/Materials/Backplate/CanvasBackplateQuad.mat
+  artifactKey: Guid(6b655830bd028c1408f3e8844fb6aed0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/org.mixedrealitytoolkit.standardassets/Materials/Backplate/CanvasBackplateQuad.mat using Guid(6b655830bd028c1408f3e8844fb6aed0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1864f171e43367638957030f908a323') in 0.061075 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Packages/com.microsoft.mrtk.graphicstools.unity/Runtime/Materials/CanvasGlow.mat
+  artifactKey: Guid(5d5533370607d6244b3aa01111a3ee42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.microsoft.mrtk.graphicstools.unity/Runtime/Materials/CanvasGlow.mat using Guid(5d5533370607d6244b3aa01111a3ee42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf833cb22c7859fa2f2f0d1436f43eb8') in 0.033370 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Packages/com.microsoft.mrtk.graphicstools.unity/Runtime/Materials/CanvasBeveled.mat
+  artifactKey: Guid(3e399f4c8f94c07469d949416faa944b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.microsoft.mrtk.graphicstools.unity/Runtime/Materials/CanvasBeveled.mat using Guid(3e399f4c8f94c07469d949416faa944b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f879a113e4674229f527124aa472a55b') in 0.130952 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Packages/com.microsoft.mrtk.graphicstools.unity/Runtime/Materials/CanvasFrontplate.mat
+  artifactKey: Guid(e0591146acc7da244b4200e0eaddf6ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.microsoft.mrtk.graphicstools.unity/Runtime/Materials/CanvasFrontplate.mat using Guid(e0591146acc7da244b4200e0eaddf6ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d0c9c37e804a7551d6a47ceea2bd878') in 0.070478 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Packages/org.mixedrealitytoolkit.standardassets/Materials/CompressedButtonMaterial/CanvasSwitchBackground.mat
+  artifactKey: Guid(fc8dfa24e892e6d41b02fa6a30a21fa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/org.mixedrealitytoolkit.standardassets/Materials/CompressedButtonMaterial/CanvasSwitchBackground.mat using Guid(fc8dfa24e892e6d41b02fa6a30a21fa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e30281984784f264b23107122c63d90b') in 0.051895 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Packages/com.microsoft.mrtk.graphicstools.unity/Runtime/Materials/CanvasQuadGlow.mat
+  artifactKey: Guid(063a4c80c71bd5a4db5edc43852b32de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.microsoft.mrtk.graphicstools.unity/Runtime/Materials/CanvasQuadGlow.mat using Guid(063a4c80c71bd5a4db5edc43852b32de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6083c2ef8f51a9af608d190c460628bd') in 0.048084 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Packages/org.mixedrealitytoolkit.standardassets/Materials/CompressedButtonMaterial/CanvasGlow.mat
+  artifactKey: Guid(f9c2bd4e2542bd3448cfd6cccfe7eccc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/org.mixedrealitytoolkit.standardassets/Materials/CompressedButtonMaterial/CanvasGlow.mat using Guid(f9c2bd4e2542bd3448cfd6cccfe7eccc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91238dd261a9540fd76cc90304aa535a') in 0.012705 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Packages/com.microsoft.mrtk.graphicstools.unity/Runtime/Materials/Non-CanvasBeveled.mat
+  artifactKey: Guid(0315a7a7a3da95b44828be6def645b68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.microsoft.mrtk.graphicstools.unity/Runtime/Materials/Non-CanvasBeveled.mat using Guid(0315a7a7a3da95b44828be6def645b68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca54983365613ce82aac1aad67a7209a') in 0.153559 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Packages/org.mixedrealitytoolkit.uxcomponents/Slider/CanvasSlider.prefab
+  artifactKey: Guid(f64620d502cdf0f429efa27703913cb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/org.mixedrealitytoolkit.uxcomponents/Slider/CanvasSlider.prefab using Guid(f64620d502cdf0f429efa27703913cb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fdcb9ddfa8d0b57b7979978b287ff98') in 0.122572 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 43
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Packages/org.mixedrealitytoolkit.uxcomponents/Button/Prefabs/CanvasButtonToggleSwitch.prefab
+  artifactKey: Guid(6d114d8c9f4193b45b685f408022743e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/org.mixedrealitytoolkit.uxcomponents/Button/Prefabs/CanvasButtonToggleSwitch.prefab using Guid(6d114d8c9f4193b45b685f408022743e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec22d1f507f2ae5f8be12032d2319586') in 0.054807 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 149
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Packages/com.microsoft.mrtk.graphicstools.unity/Runtime/Materials/CanvasProgressBar.mat
+  artifactKey: Guid(2663a084f769d72438ae2ad3c69213f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.microsoft.mrtk.graphicstools.unity/Runtime/Materials/CanvasProgressBar.mat using Guid(2663a084f769d72438ae2ad3c69213f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '844557d6cc40ef1f922a446f7e7dc6ec') in 0.051991 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 5.322762 seconds.
+  path: Packages/com.microsoft.mrtk.graphicstools.unity/Runtime/Materials/Non-CanvasGlow.mat
+  artifactKey: Guid(177dc975abad90b4a98a8c7d502be76e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.microsoft.mrtk.graphicstools.unity/Runtime/Materials/Non-CanvasGlow.mat using Guid(177dc975abad90b4a98a8c7d502be76e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0d3ebeb5aadddd4f15b87811666ac9c') in 0.075807 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Packages/org.mixedrealitytoolkit.uxcomponents.noncanvas/Slider/NonCanvasSliderBase.prefab
+  artifactKey: Guid(5cf5d5d5cc7fe184a93c388dbab66bb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/org.mixedrealitytoolkit.uxcomponents.noncanvas/Slider/NonCanvasSliderBase.prefab using Guid(5cf5d5d5cc7fe184a93c388dbab66bb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b20f4010c8fcb2b10dd802ea7d1c59fc') in 0.134287 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 44
+========================================================================
+Received Import Request.
+  Time since last request: 2330.783941 seconds.
+  path: Packages/org.mixedrealitytoolkit.extendedassets/Fonts/Selawik/selawksl.ttf
+  artifactKey: Guid(da3625083db3ee74daf21ea20c7669a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/org.mixedrealitytoolkit.extendedassets/Fonts/Selawik/selawksl.ttf using Guid(da3625083db3ee74daf21ea20c7669a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67e0931ca146080cbac8895afbe6d244') in 0.115654 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Fonts/Roboto-Bold.ttf
+  artifactKey: Guid(4beb055f07aaff244873dec698d0363e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Fonts/Roboto-Bold.ttf using Guid(4beb055f07aaff244873dec698d0363e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '162cbec775440a33755b21bd43858926') in 0.012737 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Packages/org.mixedrealitytoolkit.extendedassets/Fonts/Selawik/selawk.ttf
+  artifactKey: Guid(2d0b36401e6edcd4ea4a8157de49d41b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/org.mixedrealitytoolkit.extendedassets/Fonts/Selawik/selawk.ttf using Guid(2d0b36401e6edcd4ea4a8157de49d41b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75c1c06cef1baa8aaa90719c5f883da5') in 0.019749 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Packages/org.mixedrealitytoolkit.uxcomponents/Keyboard/NativeKeyboard/Materials/KeyboardPreviewTextRect.mat
+  artifactKey: Guid(551818bcd40482d4daec99772f9980a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/org.mixedrealitytoolkit.uxcomponents/Keyboard/NativeKeyboard/Materials/KeyboardPreviewTextRect.mat using Guid(551818bcd40482d4daec99772f9980a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1851fa3c1cfe120699d473c11fb4d27d') in 0.065425 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Packages/org.mixedrealitytoolkit.extendedassets/Fonts/Selawik/selawkb.ttf
+  artifactKey: Guid(3dd7bc3c436731b4f97f55ec200f274b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/org.mixedrealitytoolkit.extendedassets/Fonts/Selawik/selawkb.ttf using Guid(3dd7bc3c436731b4f97f55ec200f274b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc4c9f1109fa8565a8e30eae2697b0aa') in 0.014803 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Packages/org.mixedrealitytoolkit.uxcomponents.noncanvas/Button/32x32/PressableButton_32x32mm_IconAndText.prefab
+  artifactKey: Guid(c25d8f2d22117bd40ad824684551fbde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/org.mixedrealitytoolkit.uxcomponents.noncanvas/Button/32x32/PressableButton_32x32mm_IconAndText.prefab using Guid(c25d8f2d22117bd40ad824684551fbde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c46b240c659b0754734c95385d92cfdf') in 0.112414 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 340
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Packages/org.mixedrealitytoolkit.extendedassets/Fonts/Selawik/selawkl.ttf
+  artifactKey: Guid(0c0f8d33b7b651142820cb134767bd33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/org.mixedrealitytoolkit.extendedassets/Fonts/Selawik/selawkl.ttf using Guid(0c0f8d33b7b651142820cb134767bd33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37fb3fc0462c8eaeedabe536b7705e8e') in 0.014539 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Fonts/Electronic Highway Sign.TTF
+  artifactKey: Guid(8a2b9e2a607dd2143b58c44bc32410b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Fonts/Electronic Highway Sign.TTF using Guid(8a2b9e2a607dd2143b58c44bc32410b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c04eaa06f5d2e6da8b1f8126eae6590') in 0.020692 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Packages/org.mixedrealitytoolkit.windowsspeech/Assets/Default Configs/MRTKWinTextToSpeechConfig.asset
+  artifactKey: Guid(ec06601741075d94188888a307e8ebd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/org.mixedrealitytoolkit.windowsspeech/Assets/Default Configs/MRTKWinTextToSpeechConfig.asset using Guid(ec06601741075d94188888a307e8ebd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d1559642bea3eb52141d1fe53ba6826') in 0.002251 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Packages/org.mixedrealitytoolkit.uxcomponents.noncanvas/Button/32x32/PressableButton_32x32mm_IconAndText_NoBackPlates.prefab
+  artifactKey: Guid(6ce24ddaab37c8c4aa01ee45349b4583) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/org.mixedrealitytoolkit.uxcomponents.noncanvas/Button/32x32/PressableButton_32x32mm_IconAndText_NoBackPlates.prefab using Guid(6ce24ddaab37c8c4aa01ee45349b4583) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '711672a4ea944713156dd90cc1e3aa78') in 0.086146 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 423
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Packages/org.mixedrealitytoolkit.uxcomponents.noncanvas/Button/32x32/PressableButton_32x32mm_IconAndText_InnerQuadOnly.prefab
+  artifactKey: Guid(e5b53b02ddc453d49a3a36a85164095f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/org.mixedrealitytoolkit.uxcomponents.noncanvas/Button/32x32/PressableButton_32x32mm_IconAndText_InnerQuadOnly.prefab using Guid(e5b53b02ddc453d49a3a36a85164095f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff084be138bda62d93111ca868f7f281') in 0.084223 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 423
+========================================================================
+Received Import Request.
+  Time since last request: 1.016261 seconds.
+  path: Packages/org.mixedrealitytoolkit.uxcomponents.noncanvas/Button/80x32/PressableButton_80x32mm_IconAndText.prefab
+  artifactKey: Guid(5e1e5c2fb89ded5469dd37ccbed1a896) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/org.mixedrealitytoolkit.uxcomponents.noncanvas/Button/80x32/PressableButton_80x32mm_IconAndText.prefab using Guid(5e1e5c2fb89ded5469dd37ccbed1a896) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '276917e668e802d5359e6cd68bf9cd07') in 0.086216 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 338
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Packages/org.mixedrealitytoolkit.extendedassets/Materials/Text3DSelawik.mat
+  artifactKey: Guid(0cddf93e8dd1243448c90c4aa8bcd257) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/org.mixedrealitytoolkit.extendedassets/Materials/Text3DSelawik.mat using Guid(0cddf93e8dd1243448c90c4aa8bcd257) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '429ea680afda02cd203eddf524439cb1') in 0.018345 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Packages/org.mixedrealitytoolkit.uxcomponents.noncanvas/Button/128x32/PressableButton_128x32mm_IconAndText_R.prefab
+  artifactKey: Guid(65f40353d917a5b4fa51fa52c7aac877) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/org.mixedrealitytoolkit.uxcomponents.noncanvas/Button/128x32/PressableButton_128x32mm_IconAndText_R.prefab using Guid(65f40353d917a5b4fa51fa52c7aac877) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a5d452297b483712dce12e6921729ca') in 0.075808 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 255
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Packages/org.mixedrealitytoolkit.extendedassets/Materials/Text3DSelawikBold.mat
+  artifactKey: Guid(d57d33dd078b025418c346ba384ed974) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/org.mixedrealitytoolkit.extendedassets/Materials/Text3DSelawikBold.mat using Guid(d57d33dd078b025418c346ba384ed974) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ca274f90c9c6060fac9b39d3c165c5b') in 0.011701 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Packages/org.mixedrealitytoolkit.uxcomponents.noncanvas/Button/128x32/PressableButton_128x32mm_SubtitleWithSinglelineText.prefab
+  artifactKey: Guid(63232efbe4f6ab74489b56508d9ba70f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/org.mixedrealitytoolkit.uxcomponents.noncanvas/Button/128x32/PressableButton_128x32mm_SubtitleWithSinglelineText.prefab using Guid(63232efbe4f6ab74489b56508d9ba70f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98499b854b372990cddb3de9cd74cd1d') in 0.078259 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 344
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Packages/org.mixedrealitytoolkit.uxcomponents.noncanvas/Button/128x32/PressableButton_128x32mm_SinglelineTextWithSubtitle.prefab
+  artifactKey: Guid(763be22d1f08e6741a7101dacd726814) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/org.mixedrealitytoolkit.uxcomponents.noncanvas/Button/128x32/PressableButton_128x32mm_SinglelineTextWithSubtitle.prefab using Guid(763be22d1f08e6741a7101dacd726814) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f03b61045447d0d26b6c217e1b4f745') in 0.071285 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 257
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Packages/org.mixedrealitytoolkit.uxcomponents.noncanvas/Button/128x32/PressableButton_128x32mm_IconAndText_L.prefab
+  artifactKey: Guid(8ace9c04082e8ce4ea440f9bef681ce3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/org.mixedrealitytoolkit.uxcomponents.noncanvas/Button/128x32/PressableButton_128x32mm_IconAndText_L.prefab using Guid(8ace9c04082e8ce4ea440f9bef681ce3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1ff7b580493cffb6d2bd2c83e91a470') in 0.076538 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 255
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Packages/org.mixedrealitytoolkit.uxcomponents.noncanvas/Button/160x32/PressableButton_160x32mm_SingleLineText.prefab
+  artifactKey: Guid(3e816bc244e720a44bdea29af72e0b8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/org.mixedrealitytoolkit.uxcomponents.noncanvas/Button/160x32/PressableButton_160x32mm_SingleLineText.prefab using Guid(3e816bc244e720a44bdea29af72e0b8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a71d4181b5f0dd0c4db955bdcb5be18') in 0.080768 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 253
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Textures/Text Overflow - Linked Text UI Screenshot.png
+  artifactKey: Guid(c76d18757a194d618355f05f815cb0a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Textures/Text Overflow - Linked Text UI Screenshot.png using Guid(c76d18757a194d618355f05f815cb0a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91de607a8a8795f91ee9aebb3d5cd3a5') in 0.034536 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Packages/org.mixedrealitytoolkit.uxcomponents.noncanvas/Toggles/160x32/TogglePressableButton_160x32mm_IconAndText_L.prefab
+  artifactKey: Guid(984e359bf8777ab44821ba8dd3b11482) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/org.mixedrealitytoolkit.uxcomponents.noncanvas/Toggles/160x32/TogglePressableButton_160x32mm_IconAndText_L.prefab using Guid(984e359bf8777ab44821ba8dd3b11482) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb666d9d1f6060b861dde8c33ee32d0d') in 0.104442 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 421
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Packages/com.unity.textmeshpro/Tests/Editor/Unity.TextMeshPro.Editor.Tests.asmdef
+  artifactKey: Guid(656e461844099ae43a609ff6109b0877) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.textmeshpro/Tests/Editor/Unity.TextMeshPro.Editor.Tests.asmdef using Guid(656e461844099ae43a609ff6109b0877) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f44f7119ddcc8791782e949591d587d3') in 0.000899 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000097 seconds.
+  path: Packages/com.unity.textmeshpro/Tests/Runtime/Unity.TextMeshPro.Tests.asmdef
+  artifactKey: Guid(bb05cab7d802aa5468f8f2f86840d984) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.textmeshpro/Tests/Runtime/Unity.TextMeshPro.Tests.asmdef using Guid(bb05cab7d802aa5468f8f2f86840d984) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c65ca0260e2e10cb129713f8d72b633') in 0.000638 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Packages/com.unity.textmeshpro/Scripts/Editor/Unity.TextMeshPro.Editor.asmdef
+  artifactKey: Guid(6546d7765b4165b40850b3667f981c26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.textmeshpro/Scripts/Editor/Unity.TextMeshPro.Editor.asmdef using Guid(6546d7765b4165b40850b3667f981c26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a9a20a185e98d1202adffbc9b3fd2e7') in 0.000866 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000092 seconds.
+  path: Packages/org.mixedrealitytoolkit.extendedassets/Materials/Text3DSelawikLight.mat
+  artifactKey: Guid(74735bb09deb2f1458c6581057d503c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/org.mixedrealitytoolkit.extendedassets/Materials/Text3DSelawikLight.mat using Guid(74735bb09deb2f1458c6581057d503c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c95cdc6711696d5a8ab775b06ccd52e7') in 0.015966 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Packages/org.mixedrealitytoolkit.uxcomponents.noncanvas/Toggles/128x32/TogglePressableButton_128x32mm_IconAndText_L.prefab
+  artifactKey: Guid(6025eb16702e9ea4cb10e484240f9421) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/org.mixedrealitytoolkit.uxcomponents.noncanvas/Toggles/128x32/TogglePressableButton_128x32mm_IconAndText_L.prefab using Guid(6025eb16702e9ea4cb10e484240f9421) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '604e9004e2f4b650c23590c2957b0824') in 0.102030 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 338
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
